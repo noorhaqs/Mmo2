@@ -64,6 +64,7 @@
     <Compile Include="Assets\Cir.cs" />
     <Compile Include="Assets\EnemyHealth.cs" />
     <Compile Include="Assets\Health.cs" />
+    <Compile Include="Assets\Menu.cs" />
     <Compile Include="Assets\Projectile.cs" />
     <Compile Include="Assets\Scripts\EnemyBehavior.cs" />
     <Compile Include="Assets\Scripts\EnemyMove.cs" />
