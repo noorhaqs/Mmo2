@@ -9,8 +9,13 @@ public class EnemyBehavior : MonoBehaviour
     public float stoppingDistance;      
     public float retreatDistance;   //also the enemy will retreat//
 
+    public float timeBShots;
+    public float StimeBShots;
+    public GameObject projectile;
+
     public Transform player;
 
+ 
 
     void Start()
     {
@@ -31,5 +36,15 @@ public class EnemyBehavior : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, player.position, -speed * Time.deltaTime); //if the player comes close to the enemy, then, the enemy will back away//
         }
             
+     if(timeBShots <-0)    //makes sure projectiles come after a certain amount of seconds//
+        {
+            Instantiate(projectile, transform.position, Quaternion.identity);
+            timeBShots = StimeBShots;   
+        }
+        else
+        {
+            timeBShots -= Time.deltaTime;
+        }
+
             }
 }

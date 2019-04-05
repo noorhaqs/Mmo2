@@ -60,12 +60,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Arrow.cs" />
+    <Compile Include="Assets\Cir.cs" />
+    <Compile Include="Assets\EnemyHealth.cs" />
+    <Compile Include="Assets\Health.cs" />
+    <Compile Include="Assets\Projectile.cs" />
     <Compile Include="Assets\Scripts\EnemyBehavior.cs" />
+    <Compile Include="Assets\Scripts\EnemyMove.cs" />
     <Compile Include="Assets\Scripts\InputManager.cs" />
     <Compile Include="Assets\Scripts\KBindings.cs" />
     <Compile Include="Assets\Scripts\LayerPlayer.cs" />
     <Compile Include="Assets\Scripts\PlayerBehavior.cs" />
+    <Compile Include="Assets\Scripts\ShScript.cs" />
     <Compile Include="Assets\Scripts\SpriteColor.cs" />
+    <Compile Include="Assets\Spwaner.cs" />
     <None Include="Assets\Textures\HP-MP HUD\HP-MP HUD-ReadMe.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Unity/Unity Projects/Mmo1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
