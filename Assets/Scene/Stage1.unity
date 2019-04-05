@@ -125,7 +125,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 83025415}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ba68767aaaefb754f8d9674db683eaef, type: 3}
   m_Name: 
@@ -179,7 +179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 702386233a05b5940b19bcca8ba835cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyHealth: 100
+  enemyHealth: 250
 --- !u!114 &83025424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -935,6 +935,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayer
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788369534446895953, guid: 86c39ee2c3409464fa5ade6aba3021d2,
+        type: 3}
+      propertyPath: Player_speed
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86c39ee2c3409464fa5ade6aba3021d2, type: 3}
